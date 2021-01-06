@@ -1,0 +1,60 @@
+/* On screens that are 992px or less, set the background color to blue */
+@media screen and (max-width: 992px) {
+    body {
+      background-color: blue;
+    }
+  }
+  
+  /* On screens that are 600px or less, set the background color to olive */
+  @media screen and (max-width: 600px) {
+    body {
+      background-color: olive;
+    }
+  }
+  
+  
+  nav {
+      mask-image: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, #ffffff 25%, #ffffff 75%, rgba(255, 255, 255, 0) 100%);
+      margin: 0 auto;
+      padding: 40px 0;
+      background-image: linear-gradient(260deg, #5729a0 0%, #a2af47   100%);
+    }
+  
+    header {
+      position: fixed;
+      width: 100%;
+      top: 0;
+      left: 0;
+    }
+  
+    nav ul {
+      text-align: center;
+      background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.2) 25%, rgba(255, 255, 255, 0.2) 75%, rgba(255, 255, 255, 0) 100%);
+      box-shadow: 0 0 25px rgba(0, 0, 0, 0.1), inset 0 0 1px rgba(255, 255, 255, 0.6);
+    }
+    
+    nav ul li {
+      display: inline-block;
+    }
+    
+    nav ul li a {
+      padding: 18px;
+      font-family: "Open Sans";
+      text-transform:uppercase;
+      color: rgba(255, 255, 255, 0.5);
+      font-size: 18px;
+      text-decoration: none;
+      display: block;
+    }
+    
+    nav ul li a:hover {
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1), inset 0 0 1px rgba(255, 255, 255, 0.6);
+      background: rgba(255, 255, 255, 0.1);
+      color: rgba(0, 35, 122, 0.7);
+    }
+  
+  
+    #flex {
+        display: flex;
+        flex-direction: column;
+    }
